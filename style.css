@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #E2E2C1;
+}
+
+#container {
+    width: 100%;
+    background: #004820;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: #004820;
+    position: relative;
+}
+
+.logo {
+    width: 300px;
+    height: 66px;
+    color: #fff;
+    margin-left: 3%;
+    padding-top: 20px;
+}
+
+.logo span{
+    margin-left: 30%;
+}
+
+body.home #nav a#home,
+body.team #nav a#team,
+body.memo #nav a#memo {
+    color: #fff;
+    background: #266228;   
+}
+
+/*Nav*/
+
+.right {
+    float: right;
+    margin-top: -5%;
+    margin-right: 10%;
+}
+
+a:link, a:visited{
+    color: #fff;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #266228;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+
+#topo ul {
+    
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: white;
+    line-height: 2.1em;
+    border-right: 1px solid white;
+}
+
+#topo ul a:hover {
+    color: #0B311C;
+}
+
+/*Conteudo*/
+
+#content {
+    background-color: #2C6E49;
+    margin: 0 auto;
+    width: 76%;
+    height: auto;
+    padding-bottom: 0px; /* Espaço extra para evitar que o rodapé sobreponha o conteúdo */
+}
+
+#content h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 30px 0 ;
+}
+
+
+
+.textbox {
+    background-color: #36454F;
+    position: relative;
+    width: 78%;
+    height: 258px;
+    margin: 0 auto;
+    min-width: 78%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.riddle {
+    background-color: #36454F;
+    position: relative;
+    width: 49%;
+    height: 258px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.textbox p {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.riddle p {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.93em;
+    line-height: 1.17em;
+}
+
+.space {
+    height: 70px;
+}
+
+/*Rodapé*/
+
+.footer {
+    width: 100%; /* Ocupa a largura total da tela */
+    background-color: #004820;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0; /* Posiciona o rodapé no final */
+    left: 0; /* Garante que o rodapé fique alinhado à esquerda */
+    z-index: 1000; /* Mantém o rodapé acima de outros elementos */
+}
+
+/*Memberbox*/
+
+.container {
+    display: flex; /* Define um layout flexível para alinhar os itens lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    background-color: #36454F; /* Cor de fundo */
+    margin: 0 auto;
+    width: 85%;
+    height: 228px;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 180px; /* Largura da imagem */
+    height: 180px; /* Altura da imagem */
+    border-radius: 8px; /* Opcional: arredondar a imagem */
+    object-fit: cover; /* Garante que a imagem fique proporcional */
+    margin-right: 15px; /* Espaço entre a imagem e o conteúdo */
+  }
+  
+  .content {
+    flex: 1; /* Faz o conteúdo ocupar o restante do espaço */
+  }
+  
+  .name {
+    font-size: 30px; /* Tamanho do nome */
+    font-weight: bold; /* Negrito */
+    margin: 0 0 5px; /* Espaçamento abaixo do nome */
+  }
+  
+  .description {
+    font-size: 22px; /* Tamanho do texto da descrição */
+    color: white; /* Cor mais clara para o texto */
+    margin: 0; /* Remove margens extras */
+  }
+
+  .highlight:hover{
+    color: #561923;
+  }
+
+/*Memorial*/
+
+.containermemo {
+    display: flex; /* Define um layout flexível para alinhar os itens lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    background-color: #36454F; /* Cor de fundo */
+    margin: 0 auto;
+    width: 65%;
+    height: 228px;
+    overflow: hidden;
+  }
