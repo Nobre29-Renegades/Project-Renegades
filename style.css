@@ -204,6 +204,10 @@ ul {
     color: #561923;
   }
 
+  .puppylight:hover {
+    color: #7DF9FF;
+  }
+
 /*Memorial*/
 
 .containermemo {
