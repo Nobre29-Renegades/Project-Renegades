@@ -17,7 +17,7 @@
 // Team
 
 <div class="container"> <!-- Name -->
-                <img src="img/cappfp.png" class="img">
+                <img src="img/standby.gif" class="img">
 
                 <div class="content">
 
